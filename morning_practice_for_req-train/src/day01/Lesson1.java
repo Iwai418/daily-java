@@ -26,37 +26,37 @@ public class Lesson1 {
 		int num;
 		num = 12;
 		//numの値を出力
-		System.out.println(12);
+		System.out.println(num);
 		
 		double d;
 		// s に1.6を代入
 		d =1.6;
 		//d の値を出力
-		System.out.println(1.6);
+		System.out.println(d);
 		
 		String str;
 		str = "こんにちは";
 		//str の値を出力
-		System.out.println("こんにちは");
+		System.out.println(str);
 		
 		boolean b;
 		//b に true　を入力
 		b = true;
 		//b の値を入力
-		System.out.println("true");
+		System.out.println(b);
 		
-		int num;
-		num = 12;
+		int num1;
+		num1 = 12;
 		double dnum = 1.6;
 		//helloに挨拶を代入する
 		String hello ="こんにちは";
-		boolean b;
-		b = true;
+		boolean b1;
+		b1 = true;
 		
 		System.out.println("出力します");
-		System.out.println(num);
+		System.out.println(num1);
 		System.out.println(dnum);
 		System.out.println(hello + "\n" + b);
-		System.out.println(b);
+		System.out.println(b1);
 	}
 }
