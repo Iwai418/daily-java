@@ -20,8 +20,18 @@ package day04;
 public class Lesson6 {
 
 	public static void main(String[] args) {
-		/*ここから記入*/
-
+		
+		String [] names = {"鈴木", "田中" , "佐藤"};
+		String nameOutput = "";
+		//↑一つの文字列変数
+		
+		for (int i = 0; i < names.length; i++) {
+			nameOutput += names [1];
+			
+			if(i != names. length -1) {
+				nameOutput += ",";
+			}
+		}
+		System.out.println(nameOutput);
 	}
-
-}
+}	
