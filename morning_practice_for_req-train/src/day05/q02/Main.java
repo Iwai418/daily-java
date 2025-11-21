@@ -54,13 +54,45 @@
 
 package day05.q02;
 
+import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 
 class Main {
 
 	public static void main(String[] args) throws IOException {
 		/*ここから記入*/
-
+		System.out.println("4ケタのログインIDを入力してください");
+		
+		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+		System.out.println("input id?");
+		String str = reader.readLine();
+		boolean b = Integer.parseInt(str);
+		
+		
+		if (b == 1111) {
+			//numが1111で正解の場合
+			 System.out.println("ログインに成功しました");
+			 
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	}
 
 }
