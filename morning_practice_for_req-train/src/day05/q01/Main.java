@@ -40,7 +40,7 @@ class Main {
 	public static void main(String[] args) throws IOException {
 		/*ここから記入*/
 		
-		System.out.println("商品の税込み金額（消費税10％）を計算します。");
+//		System.out.println("商品の税込み金額（消費税10％）を計算します。");
 		System.out.println("税抜き金額を入力してください。");
 
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));

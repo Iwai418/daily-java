@@ -43,7 +43,8 @@ class Main {
 
 	public static void main(String[] args) {
 		/*ここから記入*/
-
+		Drink drink = new Drink(120, "ビタミン麦茶");
+		
 	}
 
 }

@@ -62,37 +62,61 @@ class Main {
 
 	public static void main(String[] args) throws IOException {
 		/*ここから記入*/
-		System.out.println("4ケタのログインIDを入力してください");
 		
-		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-		System.out.println("input id?");
-		String str = reader.readLine();
-		boolean b = Integer.parseInt(str);
-		
-		
-		if (b == 1111) {
-			//numが1111で正解の場合
-			 System.out.println("ログインに成功しました");
-			 
-		}
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-	}
+		class Main {
 
-}
+			public static void main(String[] args) throws IOException {
+
+				Validation validation = new Validation();
+				ConsoleReader consoleReader = new ConsoleReader();
+				boolean canLogin = false;
+				int id = 0;
+
+				System.out.println("4ケタのログインIDを入力してください");
+				while (!canLogin) {
+
+					System.out.print("\ninput id? >>");
+
+					id = consoleReader.inputId();
+					canLogin = validation.checkId(id);
+
+					if (canLogin) {
+						System.out.println("ログインに成功しました");
+						break;// ログイン成功の場合はループから抜ける
+					}
+					System.out.println("ログインできません");
+					System.out.println("もう一度入力してください");
+				}
+				System.out.println("ようこそ、ID:" + id + "さん");
+
+			}
+		}
+
+
+//		}
+//		System.out.println("4ケタのログインIDを入力してください");
+//		
+//		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+//		System.out.println("input id?");
+//		String str = reader.readLine();
+//		boolean b = Integer.parseInt(str);
+//		
+//		
+//		if (b == 1111) {
+//			//numが1111で正解の場合
+//			 System.out.println("ログインに成功しました");
+//			 
+//		}
+//		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+
+
