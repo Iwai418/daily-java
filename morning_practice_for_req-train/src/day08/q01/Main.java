@@ -58,13 +58,12 @@ class Main {
 
 		/*ここから記入*/
 		/*Sorcererクラスの生成、利用*/
-		Sorcerer sorcerer = new Sorcerer("魔導士")；
 		
-		int magicMp = 32;
+		Magic sorcerer = new Sorcerer("魔導士");
 		
-		m.show
+		int sorcereMp = 32;
 		
-		s.show
+		sorcerer.attack(sorcereMp);
 	}
 
 }
