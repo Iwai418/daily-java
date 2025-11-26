@@ -22,11 +22,23 @@ public class Drink {
 		super();
 		this.price = price;
 		this.name = name;
+		
+		
+	}
+	
+	public void show() {
+		System.out.println(name + ":" + price +"円です。");
+//		System.out.println(name2: + price2 +"円です。");
+//		System.out.println(name3: + price3 +"円です。");
 	}
 	
 	
-	
-	
 }
+
+
+
+
+
+
 
 //引数ありと引数なし２パターンエクリプスで作る

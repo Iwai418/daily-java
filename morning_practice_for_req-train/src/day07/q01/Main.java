@@ -43,7 +43,25 @@ class Main {
 
 	public static void main(String[] args) {
 		/*ここから記入*/
-		Drink drink = new Drink(120, "ビタミン麦茶");
+//		Drink drink = new Drink(120, "ビタミン麦茶");
+//		//要素数3のDrink型の配列を宣言
+		Drink[] drinks= new Drink[3];
+		//オブジェクト生成
+		drinks[0]=new Drink(140, "リアル・コーラ");
+		drinks[1]=new Drink(210, "ハイパードライ");
+		drinks[2]=new Drink();
+		
+		for(Drink drink:drinks) {
+			drink.show();
+		}
+		
+		
+		
+		
+		
+		
+		
+		
 		
 	}
 
