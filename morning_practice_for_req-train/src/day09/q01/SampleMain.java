@@ -1,5 +1,5 @@
 package day09.q01;
-
+//IOExceptionというクラス
 import java.io.IOException;
 
 public class SampleMain {

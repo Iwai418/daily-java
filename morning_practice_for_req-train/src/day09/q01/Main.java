@@ -46,8 +46,22 @@ import java.io.IOException;
 public class Main {
 
 	public static void main(String[] args) throws IOException {
-		// ここに記述
-
+		// HumanPlayer型のオブジェクトを生成
+		HumanPlayer p1 = new HumanPlayer("suzuki");
+		//ComPlayer型のオブジェクトを生成
+		ComPlayer p2 = new ComPlayer();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	}
 
 }
